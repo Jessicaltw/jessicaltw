@@ -1,0 +1,130 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+
+
+header {
+    background-color: #fff;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 9999;
+    box-shadow: 0 1px 3px rgba(0,0,0,.1);
+  }
+
+  .left-header-container {
+    display: flex;
+    align-items: center;
+  }
+  
+  .logo {
+    margin-right: 20px;
+  }
+  
+  .menu {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    align-items: center;
+    list-style: none;
+  }
+
+  .left-menu{
+    position: fixed; /* Fix the position of the menu container */
+        top: 4rem; /* Align the menu container to the top of the viewport */
+        left: 4rem; /* Align the menu container to the left of the viewport */
+        width: 200px; /* Set the width of the menu container */
+        height: 100%; /* Set the height of the menu container to cover the entire viewport */
+        background-color: #fff;
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+  }
+  
+  .menu-item {
+    padding: 14px;
+    margin: 8px 0;
+    font-family: 'Inter', sans-serif;
+    font-weight: 500;
+    font-size: 10px;
+    text-transform: uppercase;
+    color: #c2c2c2;
+    text-align: left;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: background-color 0.2s ease-in-out;
+  }
+
+  .left-menu h1{
+    padding-left: 0.7rem;
+    padding-bottom: 2rem;
+  }
+
+  .menu-item:hover a {
+    color: #000000;
+  }
+
+  .menu-item a {
+    text-decoration: none;
+    color: #c2c2c2;
+  }
+  
+
+
+      /* Define the styles for the logo */
+  .logo {
+     margin: 24px 0;
+  }
+      
+      /* Define the styles for the main content */
+  .main-content {
+     margin-left: 200px; /* Make space for the left menu */
+  }
+
+  .hamburger {
+    display: none;
+    margin-left: auto;
+  }
+  
+  
+  
+    .menu {
+      display: none;
+    }
+  
+  
+
+  h1, a ,p{
+    font-family: 'Inter';
+  }
+  
+  .container {
+    width: 100%;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .logo img {
+    max-height: 50px;
+  }
+  
+  
+  
+ 
+  .header-content {
+    height: calc(100vh - 80px);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    color: black;
+  }
+  
+
+  
