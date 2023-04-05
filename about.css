@@ -1,12 +1,15 @@
-   .introduction {
-        top: 80px;
-        width: 50%;
-        /*height: calc(100vh - 80px);*/
-        margin-left: 15rem;
-        text-align: left;
-      }
-      
-      .intro-text h1 {
+.intro-container {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 80vh;
+  }
+  
+
+    .intro-text h1 {
         font-size: 32px;
         margin-bottom: 20px;
       }
@@ -29,8 +32,6 @@
 
       .contact {
         padding-top: 2em;
-  
-
       }
 
       .contact h2,
@@ -39,6 +40,9 @@
        display: inline-block;
        vertical-align: top;  
   }
+
+
+
   
    
       
