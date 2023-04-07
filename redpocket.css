@@ -105,8 +105,8 @@ article {
     width: 70%;
     height: 0;
     margin:80px auto -50px;
-    padding-bottom:100%;
-    background:url('assets/img/redpocket3.jpg') center center;
+    padding-bottom:50%;
+    background:url('assets/img/redpocket5.jpg') center center;
     background-size:cover;
     position:relative;
 }
@@ -114,59 +114,46 @@ article {
 .blog-img4 {
     width: 70%;
     height: 0;
-    margin:-30px auto -50px;
-    padding-bottom:100%;
+    margin:80px auto -50px;
+    padding-bottom:50%;
     background:url('assets/img/redpocket4.jpg') center center;
-    background-size:contain;
-    background-repeat: no-repeat;
-    position:relative;
-}
-
-.blog-img4 {
-    width: 70%;
-    height: 0;
-    margin:-110px auto -50px;
-    padding-bottom:100%;
-    background:url('assets/img/redpocket4.jpg') center center;
-    background-size:contain;
-    background-repeat: no-repeat;
+    background-size:cover;
     position:relative;
 }
 
 .blog-img5 {
     width: 70%;
     height: 0;
-    margin:-290px auto -50px;
+    margin:80px auto -50px;
     padding-bottom:100%;
-    background:url('assets/img/redpocket5.jpg') center center;
-    background-size:contain;
-    background-repeat: no-repeat;
+    background:url('assets/img/redpocket3.jpg') center center;
+    background-size:cover;
     position:relative;
 }
-
 
 .blog-img6 {
     width: 70%;
     height: 0;
-    margin:-390px auto -50px;
-    padding-bottom:100%;
+    margin:80px auto -50px;
+    padding-bottom:50%;
     background:url('assets/img/redpocket6.jpg') center center;
-    background-size:contain;
-    background-repeat: no-repeat;
+    background-size:cover;
     position:relative;
 }
-
 
 .blog-img7 {
     width: 70%;
     height: 0;
-    margin:-320px auto -50px;
-    padding-bottom:100%;
+    margin:80px auto -50px;
+    padding-bottom:50%;
     background:url('assets/img/redpocket7.jpg') center center;
-    background-size:contain;
-    background-repeat: no-repeat;
+    background-size:cover;
     position:relative;
 }
+
+
+
+
 
 
 
@@ -214,24 +201,4 @@ b {
     .blog-hero {
         padding-bottom:60%;
     }
-
-    .blog-img4 {
-        margin:-50px auto -50px;
-    }
-
-    .blog-img5 {
-        margin:-180px auto -50px;
-    }
-
-    .blog-img6 {
-        margin:-250px auto -50px;
-    }
-
-    .blog-img7 {
-        margin:-200px auto -50px;
-    }
-
-
-
-    
 }

@@ -28,7 +28,7 @@ Flexbox is used as a fallback so that browsers which don't support grid will sti
     display: grid;
     grid-template-columns: repeat(2, minmax(24rem, 1fr));
     grid-gap: 2rem;
-    height: 100vh;;
+     height: 100vh;;
     width: auto;
     grid-template-areas:
       "item1 item2"
