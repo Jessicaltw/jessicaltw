@@ -1,0 +1,109 @@
+<!doctype html>
+<html dir="ltr" lang="af"> 
+<head> 
+  <meta charset="UTF-8"> 
+  <meta http-equiv="X-UA-Compatible" content="IE=edge"> 
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link href='https://fonts.googleapis.com/css?family=Inter' rel='stylesheet'>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+  <link href='font-files/Inter-UI-SemiBold.woff2?v=3.2' rel='stylesheet'>
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+  <link rel="stylesheet" href="illustration.css">
+  <link rel="stylesheet" href="betuft.css">
+
+  
+  <header>
+    <h1>Jessica Luk</h1>
+    <button class="hamburger-menu" id="hamburger-menu">
+      <div class="hamburger-lines">
+        <span class="line"></span>
+        <span class="line"></span>
+        <span class="line"></span>
+      </div>
+    </button>
+  
+    <div class="overlay-container" id="overlay">
+        <div class="overlay-content">
+          <div class="ul-wrapper">
+            <ul>
+              <li><a href="#">About me</a></li>
+              <li><a href="#">All works</a></li>
+              <li><a href="#">Illustration</a></li>
+              <li><a href="#">ux /ui</a></li>
+              <li><a href="#">brarnding</a></li>
+            </ul>
+          </div>
+          <i class="material-icons close-btn">close</i>
+        </div>
+      </div>
+
+  </header>
+
+  
+ <script>
+    const hamburgerMenu = document.querySelector('.hamburger-menu');
+    const overlay = document.getElementById('overlay');
+    const closeBtn = document.querySelector('.close-btn');
+  
+    hamburgerMenu.addEventListener('click', function() {
+      overlay.classList.add('show');
+    });
+  
+    closeBtn.addEventListener('click', function() {
+      overlay.classList.remove('show');
+    });
+  </script>
+  
+ 
+  <nav>
+    <h2> <div class="container">
+        <div class="left-header-container">
+        <div class="left-menu">
+           
+            <!--<div class="logo">
+                <a href="#"><img src="images/logo.png" alt="Jessicaltw"></a>
+              </div>
+            <div class="logo">
+              <a href="#"><img src="images/logo.png" alt="Jessicaltw"></a>
+            </div>-->
+           
+            <div class="menu-item"><a href="about.html">about me</a></div>
+            <div class="menu-item" ><a class="active" href="allworks.html">all works</a></div>
+            <div class="menu-item"><a href="illustration.html">illustration</a></div>
+            <div class="menu-item">ux/ui</div>
+            <div class="menu-item">branding</div>
+            <div class="menu-item">Contact</div>
+          </div>
+      </div></h2>
+ 
+  </nav>
+  <main>
+    <div class="blog-post">
+        <!--<div class="blog-hero"></div>-->
+            <article>
+                
+                <div class="blog-content">
+                    <summary>
+                        <h3>Betuft Logo Design</h3>
+                    </summary>
+                    <p>Betuft is a tufting studio based in Hong Kong that specialises in creating hand-tufted rugs and wall hangings. Betuft offers classes and workshops for those interested in learning the art of tufting. These classes provide an opportunity to learn from the experts and create your own tufted masterpiece.
+                         They work closely with customers to create a unique design that reflects their personal style and preferences.The design concept for creating a logo is to incorporate the distinct feature of tufting - the line - to represent how it connects everything together.
+                          By utilizing the line in the logo design, we can convey the concept of continuity and unity. The use of bold and clean lines can create a simple yet memorable logo that effectively communicates the core values of the brand. The design can also showcase the craftsmanship and attention to detail that goes into creating hand-tufted rugs and tapestries.  </p>
+                </div>
+                <div class="blog-img1">
+                   <!--<div class="blog-img-caption"><b>Pictured</b> Some Cool Skyline</div>-->
+                </div>
+                <div class="blog-img2" > </div>
+                <div class="blog-img3" > </div>
+            
+               
+        </article>
+    </div>   
+    
+  </main>
+  <footer>
+    <h2>footer</h2>
+  </footer>

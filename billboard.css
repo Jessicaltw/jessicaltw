@@ -92,10 +92,10 @@ article {
 
 .blog-img2 {
     width: 100%;
-    height: 100%;
-    margin:30px auto 60px;
-    padding-bottom:100%;
-    background:url('assets/img/placemaking4.jpg') center center;
+    height: 90%;
+    margin:60px auto 60px;
+    padding-bottom:60%;
+    background:url('assets/img/billboard2.jpg') center center;
     background-size:cover;
     position:relative;
 }
@@ -103,13 +103,85 @@ article {
 .blog-img3 {
     width:100%;
     height: 100%;
-    margin:30px auto 60px;
-    padding-bottom:100%;
-    background:url('assets/img/placemaking5.jpg') center center;
-    background-size:contain;
-    background-repeat: no-repeat;
+    margin:-60px auto 60px;
+    padding-bottom:60%;
+    background:url('assets/img/billboard3.jpg') center center;
+    background-size:cover;
     position:relative;
 }
+
+.blog-img4 {
+    width:100%;
+    height: 100%;
+    margin:-60px auto 60px;
+    padding-bottom:60%;
+    background:url('assets/img/billboard4.jpg') center center;
+    background-size:cover;
+    position:relative;
+}
+
+.blog-img5 {
+    width:100%;
+    height: 100%;
+    margin:-60px auto 60px;
+    padding-bottom:60%;
+    background:url('assets/img/billboard5.jpg') center center;
+    background-size:cover;
+    position:relative;
+}
+
+.blog-img6 {
+    width:100%;
+    height: 100%;
+    margin:-60px auto 60px;
+    padding-bottom:60%;
+    background:url('assets/img/billboard6.jpg') center center;
+    background-size:cover;
+    position:relative;
+}
+
+.blog-img7 {
+    width:100%;
+    height: 100%;
+    margin:-60px auto 60px;
+    padding-bottom:60%;
+    background:url('assets/img/billboard7.jpg') center center;
+    background-size:cover;
+    position:relative;
+}
+
+.blog-img8 {
+    width:100%;
+    height: 100%;
+    margin:-60px auto 60px;
+    padding-bottom:60%;
+    background:url('assets/img/billboard8.jpg') center center;
+    background-size:cover;
+    position:relative;
+}
+
+.blog-img9 {
+    width:100%;
+    height: 100%;
+    margin:-60px auto 60px;
+    padding-bottom:60%;
+    background:url('assets/img/billboard9.jpg') center center;
+    background-size:cover;
+    position:relative;
+}
+
+.blog-img10 {
+    width:100%;
+    height: 100%;
+    margin:-60px auto 60px;
+    padding-bottom:60%;
+    background:url('assets/img/billboard10.jpg') center center;
+    background-size:cover;
+    position:relative;
+}
+
+
+
 
 
 
