@@ -1,0 +1,113 @@
+<!doctype html>
+<html dir="ltr" lang="af"> 
+<head> 
+  <meta charset="UTF-8"> 
+  <meta http-equiv="X-UA-Compatible" content="IE=edge"> 
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link href='https://fonts.googleapis.com/css?family=Inter' rel='stylesheet'>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+  <link href='font-files/Inter-UI-SemiBold.woff2?v=3.2' rel='stylesheet'>
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+  <link rel="stylesheet" href="illustration.css">
+  <link rel="stylesheet" href="biore.css">
+
+  
+  <header>
+    <h1>Jessica Luk</h1>
+    <button class="hamburger-menu" id="hamburger-menu">
+      <div class="hamburger-lines">
+        <span class="line"></span>
+        <span class="line"></span>
+        <span class="line"></span>
+      </div>
+    </button>
+  
+    <div class="overlay-container" id="overlay">
+        <div class="overlay-content">
+          <div class="ul-wrapper">
+            <ul>
+              <li><a href="#">About me</a></li>
+              <li><a href="#">All works</a></li>
+              <li><a href="#">Illustration</a></li>
+              <li><a href="#">ux /ui</a></li>
+              <li><a href="#">brarnding</a></li>
+            </ul>
+          </div>
+          <i class="material-icons close-btn">close</i>
+        </div>
+      </div>
+
+  </header>
+
+  
+ <script>
+    const hamburgerMenu = document.querySelector('.hamburger-menu');
+    const overlay = document.getElementById('overlay');
+    const closeBtn = document.querySelector('.close-btn');
+  
+    hamburgerMenu.addEventListener('click', function() {
+      overlay.classList.add('show');
+    });
+  
+    closeBtn.addEventListener('click', function() {
+      overlay.classList.remove('show');
+    });
+  </script>
+  
+ 
+  <nav>
+    <h2> <div class="container">
+        <div class="left-header-container">
+        <div class="left-menu">
+           
+            <!--<div class="logo">
+                <a href="#"><img src="images/logo.png" alt="Jessicaltw"></a>
+              </div>
+            <div class="logo">
+              <a href="#"><img src="images/logo.png" alt="Jessicaltw"></a>
+            </div>-->
+           
+            <div class="menu-item"><a href="about.html">about me</a></div>
+            <div class="menu-item" ><a class="active" href="allworks.html">all works</a></div>
+            <div class="menu-item"><a href="illustration.html">illustration</a></div>
+            <div class="menu-item">ux/ui</div>
+            <div class="menu-item">branding</div>
+            <div class="menu-item">Contact</div>
+          </div>
+      </div></h2>
+ 
+  </nav>
+  <main>
+    <div class="blog-post">
+        <!--<div class="blog-hero"></div>-->
+            <article>
+                
+                <div class="blog-content">
+                    <summary>
+                        <h3>Bioré / Facial Cleanser Ad</h3>
+                        <div class="blog-date">(please note that there are no any affiliations between this work with Bioré.) </div>
+                    </summary>
+                    <p> Background: The Biore facial cleanser line is divided into five different products to meet varying usage requirements. 
+                        The Green product is for medicinal acne-prone skin, the Purple product is to remove excess sebum, the Blue product is for creating smooth skin, the Pink product is for softly cleaning pores, and the Orange product is for dry skin. The entire cleansing series is dedicated to creating natural beauty and glowing skin.
+                        <br><br>Concept: The use of gradient and overlapping color effects creates a gentle and smooth feeling. Blue is used as the base color to represent moisture, while other colors represent dense bubbles and bright, dewy skin. 
+                        The overall design aims to evoke a feeling of freshness and purity.
+                    </p>
+                </div>
+                <div class="blog-img1">
+                   <!--<div class="blog-img-caption"><b>Pictured</b> Some Cool Skyline</div>-->
+                </div>
+                <div class="blog-img2" > </div>
+                <div class="blog-img3" > </div>
+                <div class="blog-img4" > </div>
+            
+               
+        </article>
+    </div>   
+    
+  </main>
+  <footer>
+    <h2>footer</h2>
+  </footer>

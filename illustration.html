@@ -9,10 +9,13 @@
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap" rel="stylesheet">
   <link href='font-files/Inter-UI-SemiBold.woff2?v=3.2' rel='stylesheet'>
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.3/css/all.css" integrity="sha384-hvYZRpO+VzP+6a4QV+eJvXam2QmLJLLD0cEvcKvcA33PKmIg/hIzab1JsMHkrvH9" crossorigin="anonymous">
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
   <link rel="stylesheet" href="styles.css">
-  <link rel="stylesheet" href="illustration.css">
+  <link rel="stylesheet" href="allworks.css">
 
-  
+  </head>
+
   <header>
     <h1>Jessica Luk</h1>
     <button class="hamburger-menu" id="hamburger-menu">
@@ -39,10 +42,28 @@
       </div>
 
   </header>
+
+  
+ <script>
+    const hamburgerMenu = document.querySelector('.hamburger-menu');
+    const overlay = document.getElementById('overlay');
+    const closeBtn = document.querySelector('.close-btn');
+  
+    hamburgerMenu.addEventListener('click', function() {
+      overlay.classList.add('show');
+    });
+  
+    closeBtn.addEventListener('click', function() {
+      overlay.classList.remove('show');
+    });
+  </script>
+  
+ 
   <nav>
     <h2> <div class="container">
         <div class="left-header-container">
         <div class="left-menu">
+           
             <!--<div class="logo">
                 <a href="#"><img src="images/logo.png" alt="Jessicaltw"></a>
               </div>
@@ -51,10 +72,10 @@
             </div>-->
            
             <div class="menu-item"><a href="about.html">about me</a></div>
-            <div class="menu-item"><a href="allworks.html">all works</a></div>
-            <div class="menu-item"><a href="illustration.html">illustration</a></div>
-            <div class="menu-item">ux/ui</div>
-            <div class="menu-item">branding</div>
+            <div class="menu-item" ><a   href="allworks.html">all works</a></div>
+            <div class="menu-item"><a class="active"href="illustration.html">illustration</a></div>
+            <div class="menu-item"><a href="uxui.html">ux/ui</a></div>
+            <div class="menu-item"><a  href="branding.html">branding</a></div>
             <div class="menu-item">Contact</div>
           </div>
       </div></h2>
@@ -68,17 +89,39 @@
             <div class="gallery-content" style="grid-area: 1 / 1 / 2 / 2;">
               <img class="gallery-image" src="assets/img/placemaking2.jpg" alt="person writing in a notebook beside by an iPad, laptop, printed photos, spectacles, and a cup of coffee on a saucer">
               <div class="gallery-title">
-                <p>Reimagining Placemaking・Together</p>
+                <p style="font-size: 12px;">Reimagining Placemaking・Together</p>
               </div>
             </div>
         </a>
           </div>
           <div class="gallery-item">
-            <a href="redpocket.html"></a>
+            <a href="redpocket.html">
             <div class="gallery-content" style="grid-area: 1 / 2 / 2 / 3;">
               <img class="gallery-image" src="assets/img/redpocket.jpg" alt="sunset behind San Francisco city skyline">
               <div class="gallery-title">
-                <p>Red Poscket Design</p>
+                <p style="font-size: 12px;">Red Pocket Design</p>
+              </div>
+            </div>
+        </a>
+          </div>
+       
+          <div class="gallery-item">
+            <a href="withvin.html">
+            <div class="gallery-content" style="grid-area: 1 / 1 / 2 / 2;">
+              <img class="gallery-image" src="assets/img/withvin1.jpg" alt="person writing in a notebook beside by an iPad, laptop, printed photos, spectacles, and a cup of coffee on a saucer">
+              <div class="gallery-title">
+                <p style="font-size: 12px;">With-Vin</p>
+              </div>
+            </div>
+        </a>
+          </div>
+       
+          <div class="gallery-item">
+            <a href="apple.html">
+            <div class="gallery-content" style="grid-area: 1 / 1 / 2 / 2;">
+              <img class="gallery-image" src="assets/img/apple.jpg" alt="person writing in a notebook beside by an iPad, laptop, printed photos, spectacles, and a cup of coffee on a saucer">
+              <div class="gallery-title">
+                <p style="font-size: 12px;">Apple</p>
               </div>
             </div>
         </a>
@@ -95,6 +138,8 @@
   <footer>
     <h2>footer</h2>
   </footer>
+
+
 
 
 
