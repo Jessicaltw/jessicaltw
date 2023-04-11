@@ -8,19 +8,62 @@
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap" rel="stylesheet">
-  <link href="https://fonts.cdnfonts.com/css/graphik" rel="stylesheet">
   <link href='font-files/Inter-UI-SemiBold.woff2?v=3.2' rel='stylesheet'>
-  <script src="path/to/script.js"></script>
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.3/css/all.css" integrity="sha384-hvYZRpO+VzP+6a4QV+eJvXam2QmLJLLD0cEvcKvcA33PKmIg/hIzab1JsMHkrvH9" crossorigin="anonymous">
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
   <link rel="stylesheet" href="styles.css">
+  <link rel="stylesheet" href="allworks.css">
 
-  
+  </head>
+
   <header>
     <h1>Jessica Luk</h1>
+    <button class="hamburger-menu" id="hamburger-menu">
+      <div class="hamburger-lines">
+        <span class="line"></span>
+        <span class="line"></span>
+        <span class="line"></span>
+      </div>
+    </button>
+  
+    <div class="overlay-container" id="overlay">
+        <div class="overlay-content">
+          <div class="ul-wrapper">
+            <ul>
+              <li><a href="#">About me</a></li>
+              <li><a href="#">All works</a></li>
+              <li><a href="#">Illustration</a></li>
+              <li><a href="#">ux /ui</a></li>
+              <li><a href="#">brarnding</a></li>
+            </ul>
+          </div>
+          <i class="material-icons close-btn">close</i>
+        </div>
+      </div>
+
   </header>
+
+  
+ <script>
+    const hamburgerMenu = document.querySelector('.hamburger-menu');
+    const overlay = document.getElementById('overlay');
+    const closeBtn = document.querySelector('.close-btn');
+  
+    hamburgerMenu.addEventListener('click', function() {
+      overlay.classList.add('show');
+    });
+  
+    closeBtn.addEventListener('click', function() {
+      overlay.classList.remove('show');
+    });
+  </script>
+  
+ 
   <nav>
     <h2> <div class="container">
         <div class="left-header-container">
         <div class="left-menu">
+           
             <!--<div class="logo">
                 <a href="#"><img src="images/logo.png" alt="Jessicaltw"></a>
               </div>
@@ -29,31 +72,127 @@
             </div>-->
            
             <div class="menu-item"><a href="about.html">about me</a></div>
-            <div class="menu-item"><a href="allworks.html">all works</a></div>
+            <div class="menu-item" ><a class="active"  href="index.html">all works</a></div>
             <div class="menu-item"><a href="illustration.html">illustration</a></div>
-            <div class="menu-item">ux/ui</div>
-            <div class="menu-item">branding</div>
+            <div class="menu-item"><a href="uxui.html">ux/ui</a></div>
+            <div class="menu-item"><a  href="branding.html">branding</a></div>
             <div class="menu-item">Contact</div>
           </div>
       </div></h2>
  
   </nav>
   <main>
-    <h2>main</h2>
-    <p>
-      Lorem ipsum dolor sit amet consectetur adipisicing elit. Labore tempora
-      totam temporibus sint. Consequatur, laborum nisi necessitatibus deserunt
-      ad recusandae voluptas maiores molestiae eveniet tenetur, facere
-      quisquam quidem quia rerum! Lorem ipsum dolor sit amet, consectetur
-      adipisicing elit. Accusamus suscipit nisi tempora reprehenderit eaque
-      enim cupiditate explicabo deserunt aliquam officiis rerum sapiente
-      aperiam voluptate laborum, a ex, voluptates debitis beatae.
-    </p>
+    <div class="container">
+        <div class="gallery">
+          <div class="gallery-item">
+            <a href="placemaking.html">
+            <div class="gallery-content" style="grid-area: 1 / 1 / 2 / 2;">
+              <img class="gallery-image" src="assets/img/placemaking2.jpg" alt="person writing in a notebook beside by an iPad, laptop, printed photos, spectacles, and a cup of coffee on a saucer">
+              <div class="gallery-title">
+                <p style="font-size: 12px;">Reimagining Placemaking・Together</p>
+              </div>
+            </div>
+        </a>
+          </div>
+          <div class="gallery-item">
+            <a href="redpocket.html">
+            <div class="gallery-content" style="grid-area: 1 / 2 / 2 / 3;">
+              <img class="gallery-image" src="assets/img/redpocket.jpg" alt="sunset behind San Francisco city skyline">
+              <div class="gallery-title">
+                <p style="font-size: 12px;">Red Pocket Design</p>
+              </div>
+            </div>
+        </a>
+          </div>
+          <div class="gallery-item">
+            <a href="weather.html">
+            <div class="gallery-content" style="grid-area: 1 / 2 / 2 / 3;">
+              <img class="gallery-image" src="assets/img/weatherapp.png" alt="sunset behind San Francisco city skyline">
+              <div class="gallery-title">
+                <p style="font-size: 12px;"> The Secret Weather</p>
+              </div>
+            </div>
+        </a>
+          </div>
+          <div class="gallery-item">
+            <a href="cineplex.html">
+            <div class="gallery-content" style="grid-area: 1 / 2 / 2 / 3;">
+              <img class="gallery-image" src="assets/img/cineplex1.jpg" alt="sunset behind San Francisco city skyline">
+              <div class="gallery-title">
+                <p style="font-size: 12px;"> Cineplex </p>
+              </div>
+            </div>
+        </a>
+          </div>
+          <div class="gallery-item">
+            <a href="uniqlo.html">
+            <div class="gallery-content" style="grid-area: 1 / 1 / 2 / 2;">
+              <img class="gallery-image" src="assets/img/uniqlo1.jpg" alt="person writing in a notebook beside by an iPad, laptop, printed photos, spectacles, and a cup of coffee on a saucer">
+              <div class="gallery-title">
+                <p style="font-size: 12px;">uniqlo</p>
+              </div>
+            </div>
+        </a>
+          </div>
+          <div class="gallery-item">
+            <a href="billboard.html">
+            <div class="gallery-content" style="grid-area: 1 / 1 / 2 / 2;">
+              <img class="gallery-image" src="assets/img/billboard1.png" alt="person writing in a notebook beside by an iPad, laptop, printed photos, spectacles, and a cup of coffee on a saucer">
+              <div class="gallery-title">
+                <p style="font-size: 12px;">Billboard</p>
+              </div>
+            </div>
+        </a>
+          </div>
+          <div class="gallery-item">
+            <a href="betuft.html">
+            <div class="gallery-content" style="grid-area: 1 / 1 / 2 / 2;">
+              <img class="gallery-image" src="assets/img/betuft1.jpg" alt="person writing in a notebook beside by an iPad, laptop, printed photos, spectacles, and a cup of coffee on a saucer">
+              <div class="gallery-title">
+                <p style="font-size: 12px;">Betuft</p>
+              </div>
+            </div>
+        </a>
+          </div>
+          <div class="gallery-item">
+            <a href="withvin.html">
+            <div class="gallery-content" style="grid-area: 1 / 1 / 2 / 2;">
+              <img class="gallery-image" src="assets/img/withvin1.jpg" alt="person writing in a notebook beside by an iPad, laptop, printed photos, spectacles, and a cup of coffee on a saucer">
+              <div class="gallery-title">
+                <p style="font-size: 12px;">With-Vin</p>
+              </div>
+            </div>
+        </a>
+          </div>
+          <div class="gallery-item">
+            <a href="biore.html">
+            <div class="gallery-content" style="grid-area: 1 / 1 / 2 / 2;">
+              <img class="gallery-image" src="assets/img/biore.jpg" alt="person writing in a notebook beside by an iPad, laptop, printed photos, spectacles, and a cup of coffee on a saucer">
+              <div class="gallery-title">
+                <p style="font-size: 12px;">Biore</p>
+              </div>
+            </div>
+        </a>
+          </div>
+          <div class="gallery-item">
+            <a href="apple.html">
+            <div class="gallery-content" style="grid-area: 1 / 1 / 2 / 2;">
+              <img class="gallery-image" src="assets/img/apple.jpg" alt="person writing in a notebook beside by an iPad, laptop, printed photos, spectacles, and a cup of coffee on a saucer">
+              <div class="gallery-title">
+                <p style="font-size: 12px;">Apple</p>
+              </div>
+            </div>
+        </a>
+          </div>
+          <!-- Add more gallery-items here -->
+        </div>
+      </div>
+
   </main>
   <footer>
     <h2>footer</h2>
   </footer>
 
-         
-    
 
+
+  
