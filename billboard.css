@@ -37,6 +37,14 @@ p {
     font-weight: 400;
 }
 
+summary .blog-date {
+    width:100%;
+    font-size:12px !important;
+    font-weight: 300;
+    padding-left:2px ;
+    color:#909090;
+}
+
 .blog-post {
     width:80%;
     max-width:1100px;
