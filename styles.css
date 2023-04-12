@@ -3,13 +3,15 @@
   padding: 0;
   font-family:"Inter";
   box-sizing: border-box;
+
 }
 
 
 
 body {
-  background-color: #fafafa;
+  background-color: #ffffff;
   height: 100vh;
+  overflow-x: hidden;
   margin: 0;
   padding: 2rem;
   display: grid;
@@ -67,8 +69,8 @@ footer {
     position: fixed;
     left: 0;
     bottom: 0;
-    width: 100%;
-    background-color: #f8f8f8;
+
+    background-color: #ffffff;
     text-align: center;
  
 }
@@ -134,8 +136,8 @@ button {
   margin: 8px 0;
   font-family: 'Inter', sans-serif;
   font-weight: 500;
-  font-size: 12px;
-  text-transform: uppercase;
+  font-size: 14px;
+ 
   color: #c2c2c2;
   text-align: left;
   border-radius: 8px;
@@ -252,7 +254,7 @@ h1 {
 .overlay-content li a{
   text-decoration: none;
   color: #ccc;
-  font-size: 12px;
+  font-size: 14px;
 }
 
 .overlay-content li a:hover {
@@ -292,4 +294,12 @@ h1 {
 
 #overlay.show {
   display: block;
+}
+
+.menu-item .active {
+  color: rgba(0, 0, 0, 0.476);
+  font-family: "DM Serif Display";
+  font-style: italic;
+  font-weight: 600;
+  font-size: 1.1em;
 }
