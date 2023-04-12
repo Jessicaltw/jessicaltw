@@ -75,6 +75,10 @@ footer {
  
 }
 
+.left-menu{
+  position: fixed;
+}
+
 @media (min-width: 768px) {
   body {
     grid-template-columns: 100% 1fr;
