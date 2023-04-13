@@ -54,7 +54,7 @@ header {
   grid-area: header;
   padding-top: 3rem;
   padding-left: 3rem;
-  padding-bottom: 2rem;
+  padding-bottom: 4rem;
   justify-content: space-between;
   background-color: white;
   position: fixed;
@@ -209,7 +209,7 @@ button {
   header {
     grid-area: header;
     padding-top: 3rem;
-    padding-bottom: 2rem;
+    padding-bottom: 4rem;
     justify-content: space-between;
     background-color: white;
     position: fixed;
@@ -239,8 +239,6 @@ button {
       display: flex;
       flex-direction: column;
       justify-content: space-between;
-     
-
 }
 }
 
